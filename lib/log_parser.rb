@@ -10,4 +10,10 @@ class LogParser
     @file.close
     first_line
   end
+
+  def count_lines
+    lines = IO.readlines(@file).size
+    @file.close
+    lines
+  end
 end
