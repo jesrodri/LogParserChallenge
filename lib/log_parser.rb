@@ -3,7 +3,8 @@ require 'json'
 class LogParser
   def initialize(log_file)
     @log_file = log_file
-    raise "No such file or directory." unless File.exists?(log_file)
+    raise 'No such file or directory.' unless File.exist?(log_file)
+
     @file = File.open(log_file)
   end
 
@@ -14,9 +15,13 @@ class LogParser
   end
 
   def count_lines
-    lines = IO.readlines(@file).size
+    @lines = IO.readlines(@file).size
     @file.close
-    hash_json = {"#{@log_file}": {"lines": lines}}
-    json = JSON.pretty_generate(hash_json)
+    @lines
+  end
+
+  def generate_json
+    hash_json = { "#{@log_file}": { "lines": @lines } }
+    JSON.pretty_generate(hash_json)
   end
 end
