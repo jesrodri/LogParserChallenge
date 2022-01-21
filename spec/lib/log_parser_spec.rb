@@ -1,7 +1,6 @@
 require "./lib/log_parser.rb"
 
 describe LogParser do
-
   describe '#first_line' do
     context "when file exists" do
       it "returns the first line as a string" do
@@ -9,7 +8,7 @@ describe LogParser do
       end
     end
   end
-  
+
   context "when file does not exist" do
     it "returns an error message" do
       expect{LogParser.new("no_file.log")}.to raise_error("No such file or directory.")
