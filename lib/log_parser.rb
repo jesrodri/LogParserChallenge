@@ -21,6 +21,7 @@ class LogParser
   end
 
   def generate_json
+    count_lines
     hash_json = { "#{@log_file}": { "lines": @lines } }
     JSON.pretty_generate(hash_json)
   end
