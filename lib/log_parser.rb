@@ -19,6 +19,7 @@ class LogParser
   end
 
   def generate_json
+    id_players
     hash_json = { "#{@log_file}": { "lines": count_lines, "players": @players } }
     JSON.pretty_generate(hash_json)
   end
@@ -32,9 +33,10 @@ class LogParser
   def id_players
     IO.readlines(@file).each do |line|
       if line.include? 'ClientUserinfoChanged'
-        client_split = line.split('\\', 2)
-        @players << client_split[-1].uniq
+        client_split = line.split(' n\\').last.split('\\t').first
+        @players << client_split
       end
     end
+    @players.uniq!
   end
 end

@@ -6,7 +6,7 @@ describe LogParser do
   describe '#first_line' do
     context 'when file exists' do
       it 'returns the first line as a string' do
-        expect(LogParser.new('spec/fixtures/game_test.log').first_line).to eq("yes, this is the first line!\n")
+        expect(LogParser.new('spec/fixtures/game_test.log').first_line).to eq(" 11:23 ClientConnect: 2\n")
       end
     end
   end
@@ -15,8 +15,8 @@ describe LogParser do
     it 'returns a json file' do
       expected_json = {
         'spec/fixtures/game_test.log': {
-          'lines': 5,
-          'players': %w[Edward Alice Rosalie Bella]
+          'lines': 80,
+          'players': ['Oootsimo', 'Isgalamido', 'Zeh', 'Dono da Bola', 'Mal', 'Assasinu Credi']
         }
       }
       expect(LogParser.new('spec/fixtures/game_test.log').generate_json).to eq(JSON.pretty_generate(expected_json))
