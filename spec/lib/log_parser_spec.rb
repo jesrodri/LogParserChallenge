@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './lib/log_parser'
 
 describe LogParser do
@@ -9,11 +11,12 @@ describe LogParser do
     end
   end
 
-  describe '#count_lines' do
+  describe '#generate_json' do
     it 'returns a json file' do
       expected_json = {
         'spec/fixtures/game_test.log': {
-          'lines': 1
+          'lines': 5,
+          'players': %w[Edward Alice Rosalie Bella]
         }
       }
       expect(LogParser.new('spec/fixtures/game_test.log').generate_json).to eq(JSON.pretty_generate(expected_json))
