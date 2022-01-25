@@ -1,1 +1,80 @@
-yes, this is the first line!
+ 11:23 ClientConnect: 2
+ 11:23 ClientUserinfoChanged: 2 n\Oootsimo\t\0\model\razor/id\hmodel\razor/id\g_redteam\\g_blueteam\\c1\3\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 2
+ 11:23 ClientConnect: 3
+ 11:23 ClientUserinfoChanged: 3 n\Isgalamido\t\0\model\uriel/zael\hmodel\uriel/zael\g_redteam\\g_blueteam\\c1\5\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 3
+ 11:23 ClientConnect: 4
+ 11:23 ClientUserinfoChanged: 4 n\Zeh\t\0\model\sarge/default\hmodel\sarge/default\g_redteam\\g_blueteam\\c1\1\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 4
+ 11:23 ClientConnect: 5
+ 11:23 ClientUserinfoChanged: 5 n\Dono da Bola\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\95\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 5
+ 11:23 ClientConnect: 6
+ 11:23 ClientUserinfoChanged: 6 n\Mal\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 6
+ 11:23 ClientConnect: 7
+ 11:23 ClientUserinfoChanged: 7 n\Assasinu Credi\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+ 11:23 ClientBegin: 7
+ 11:23 Item: 3 ammo_rockets
+ 11:24 Item: 3 weapon_rocketlauncher
+ 11:24 Item: 4 ammo_rockets
+ 11:24 Item: 4 weapon_rocketlauncher
+ 11:25 Item: 4 ammo_bullets
+ 11:26 Item: 7 item_armor_body
+ 11:27 Item: 3 item_armor_shard
+ 11:27 Item: 3 item_armor_shard
+ 11:28 Item: 3 item_armor_shard
+ 11:28 Item: 3 item_armor_combat
+ 11:28 Kill: 1022 2 22: <world> killed Oootsimo by MOD_TRIGGER_HURT
+ 11:30 Item: 6 ammo_shells
+ 11:30 Item: 6 weapon_shotgun
+ 11:30 Item: 7 weapon_rocketlauncher
+ 11:30 Kill: 3 4 6: Isgalamido killed Zeh by MOD_ROCKET
+ 11:31 Item: 5 weapon_railgun
+ 11:31 Item: 3 weapon_rocketlauncher
+ 11:34 Item: 4 weapon_rocketlauncher
+ 11:36 Item: 6 weapon_shotgun
+ 11:36 Kill: 7 6 7: Assasinu Credi killed Mal by MOD_ROCKET_SPLASH
+ 11:37 Item: 2 weapon_shotgun
+ 11:37 Item: 2 ammo_shells
+ 11:39 Kill: 4 2 7: Zeh killed Oootsimo by MOD_ROCKET_SPLASH
+ 11:42 Item: 2 weapon_rocketlauncher
+ 11:43 Item: 5 item_armor_shard
+ 11:43 Item: 5 item_armor_shard
+ 11:44 Item: 5 item_armor_shard
+ 11:45 Item: 2 ammo_bullets
+ 11:45 Kill: 3 7 7: Isgalamido killed Assasinu Credi by MOD_ROCKET_SPLASH
+ 11:48 Kill: 1022 3 19: <world> killed Isgalamido by MOD_FALLING
+ 11:48 Item: 4 weapon_rocketlauncher
+ 11:48 Kill: 5 6 10: Dono da Bola killed Mal by MOD_RAILGUN
+ 11:48 Item: 4 item_health_large
+ 11:50 Item: 3 weapon_rocketlauncher
+ 11:50 Kill: 2 5 6: Oootsimo killed Dono da Bola by MOD_ROCKET
+ 11:53 Item: 4 weapon_railgun
+ 11:54 Item: 6 item_armor_body
+ 11:56 Kill: 1022 4 22: <world> killed Zeh by MOD_TRIGGER_HURT
+ 11:56 Item: 5 weapon_rocketlauncher
+ 11:58 Kill: 3 7 7: Isgalamido killed Assasinu Credi by MOD_ROCKET_SPLASH
+ 11:58 Item: 4 weapon_rocketlauncher
+ 11:59 Item: 2 weapon_rocketlauncher
+ 12:00 Kill: 2 3 6: Oootsimo killed Isgalamido by MOD_ROCKET
+ 12:00 Kill: 2 2 7: Oootsimo killed Oootsimo by MOD_ROCKET_SPLASH
+ 12:00 Kill: 2 6 7: Oootsimo killed Mal by MOD_ROCKET_SPLASH
+ 12:01 Item: 5 weapon_rocketlauncher
+ 12:02 Item: 7 weapon_rocketlauncher
+ 12:02 Item: 4 item_armor_combat
+ 12:03 Item: 2 weapon_rocketlauncher
+ 12:03 Item: 2 weapon_rocketlauncher
+ 12:04 Kill: 5 5 7: Dono da Bola killed Dono da Bola by MOD_ROCKET_SPLASH
+ 12:06 Item: 2 weapon_rocketlauncher
+ 12:06 Item: 3 weapon_rocketlauncher
+ 12:06 Item: 4 weapon_rocketlauncher
+ 12:07 Item: 4 ammo_rockets
+ 12:08 Item: 2 item_armor_shard
+ 12:08 Item: 2 item_armor_shard
+ 12:08 Item: 2 item_armor_shard
+ 12:10 Item: 5 weapon_rocketlauncher
+ 12:11 Item: 2 item_armor_shard
+ 12:11 Item: 2 item_armor_shard
+ 12:11 Item: 2 item_armor_shard
